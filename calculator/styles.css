@@ -1,0 +1,39 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  margin: 5px; 
+  border-radius: 50%; 
+  font-size: 25px;
+  background: linear-gradient(135deg, rgba(178, 226, 226, 1) 0%, rgba(105, 174, 174, 1) 100%); 
+  color: white; 
+  border: none; 
+}
+
+button.equal-button {
+  width: 80px; 
+  height: 80px; 
+}
+
+.textinput {
+  width: 400px; 
+  height: 60px; 
+  font-size: 25px;
+  color: #727c75;
+  border: solid;
+  border-radius: 20px;
+}
+
+.main {
+  position: absolute;
+  border: solid 4px;
+  background: linear-gradient(rgb(6, 8, 97), rgb(23, 8, 78));
+  border-radius: 20px; 
+}
